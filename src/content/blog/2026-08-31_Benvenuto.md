@@ -19,7 +19,7 @@ Ecco, questo blog nasce più o meno lì, in quei quaranta minuti in cui ho pensa
 
 # Non è il mio primo blog
 
-Hi già scritto altrove, in altri periodi, con altri strumenti. Alcune di quelle cose sono ancora online, altre no, e non tutte mi dispiace che siano sparite.
+Ho già scritto altrove, in altri periodi, con altri strumenti. Alcune di quelle cose sono ancora online, altre no, e non tutte mi dispiace che siano sparite.
 
 La differenza stavolta è che ho voluto costruirmi il posto da zero, utilizzando Astro, un repository su GitHub, file markdown in una cartella. 
 
