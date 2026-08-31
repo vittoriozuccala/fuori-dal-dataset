@@ -1,11 +1,11 @@
 # ulBo Astro Theme
 
 <p align="center">
-  <strong>一个兼顾视觉表达、长文阅读与发布工程的 Astro 个人博客主题。</strong>
+  <strong>Un tema per blog personale in Astro, pensato per unire espressione visiva, lettura di contenuti lunghi e un flusso di pubblicazione completo.</strong>
 </p>
 
 <p align="center">
-  <a href="./README.md">中文</a> ·
+  <a href="./README.md">Italiano</a> ·
   <a href="./README.en.md">English</a>
 </p>
 
@@ -16,186 +16,186 @@
 </p>
 
 <p align="center">
-  <a href="https://template.ulna520.top"><strong>在线预览</strong></a> ·
-  <a href="https://blog.ulna520.top">真实博客</a> ·
-  <a href="https://astro.build/themes/details/ulbo/">Astro 主题商城</a> ·
-  <a href="https://github.com/xxy1103/ulbo_vscode">VS Code 文章管理工具</a>
+  <a href="https://template.ulna520.top"><strong>Anteprima online</strong></a> ·
+  <a href="https://blog.ulna520.top">Blog reale</a> ·
+  <a href="https://astro.build/themes/details/ulbo/">Negozio temi Astro</a> ·
+  <a href="https://github.com/xxy1103/ulbo_vscode">Strumento di gestione articoli per VS Code</a>
 </p>
 
-![ulBo Astro Theme 总览](./docs/images/promo/ulbo-overview.png)
+![Panoramica del tema ulBo](./docs/images/promo/ulbo-overview.png)
 
-## 为什么选择 ulBo
+## Perché scegliere ulBo
 
-ulBo 面向希望长期维护个人内容的写作者、开发者和独立创作者。它不只提供一套博客页面，还把阅读体验、内容组织、搜索发现、SEO、图片优化和日常写作流程组合成一套完整方案。
+ulBo è pensato per scrittori, sviluppatori e creatori indipendenti che vogliono mantenere un contenuto personale nel lungo periodo. Non offre solo un set di pagine per il blog: combina esperienza di lettura, organizzazione dei contenuti, ricerca, SEO, ottimizzazione delle immagini e un flusso di scrittura quotidiano in una soluzione completa.
 
-| 方向 | 能力 |
+| Area | Capacità |
 | --- | --- |
-| **视觉与动效** | 沉浸式 Hero、响应式布局、明暗主题，以及基于 Astro View Transitions 和 Material Design 3 曲线的页面动效。 |
-| **长文阅读** | 固定目录、字数与阅读时长、代码复制、KaTeX 公式、Mermaid 图表、图片灯箱和适合打印的 PDF 导出。 |
-| **内容发现** | Fuse.js 模糊搜索、`Cmd/Ctrl + K` 快捷入口、文章归档、标签筛选与分页。 |
-| **发布质量** | 严格 Frontmatter、草稿隔离、RSS、Sitemap、Canonical、Open Graph、Twitter Card 和 JSON-LD。 |
-| **配置与迁移** | 站点、个人资料和 Hero 内容集中在 `src/config/`；支持 Markdown / MDX 与 Hexo 风格图片路径。 |
-| **性能工程** | 图片懒加载、异步解码、按需 KaTeX、延迟搜索索引、预取策略，以及可预览的 WebP 优化流程。 |
+| **Visuale e animazioni** | Hero immersivo, layout responsive, tema chiaro/scuro e animazioni di pagina basate su Astro View Transitions e curve Material Design 3. |
+| **Lettura di contenuti lunghi** | Indice fisso, conteggio parole e tempo di lettura, copia del codice, formule KaTeX, grafici Mermaid, lightbox per le immagini ed esportazione PDF ottimizzata per la stampa. |
+| **Scoperta dei contenuti** | Ricerca fuzzy con Fuse.js, scorciatoia `Cmd/Ctrl + K`, archivio articoli, filtro per tag e paginazione. |
+| **Qualità di pubblicazione** | Frontmatter rigoroso, isolamento delle bozze, RSS, Sitemap, Canonical, Open Graph, Twitter Card e JSON-LD. |
+| **Configurazione e migrazione** | Sito, profilo e contenuto Hero concentrati in `src/config/`; supporto Markdown / MDX e percorsi immagine in stile Hexo. |
+| **Ingegneria delle prestazioni** | Lazy loading delle immagini, decodifica asincrona, KaTeX on-demand, indice di ricerca differito, strategie di prefetch e flusso di ottimizzazione WebP con anteprima. |
 
-## 主题预览
+## Anteprima del tema
 
 <table>
   <tr>
-    <td width="50%"><img src="./docs/images/promo/ulbo-light-dark.png" alt="ulBo 明暗主题"></td>
-    <td width="50%"><img src="./docs/images/promo/ulbo-longform.png" alt="ulBo 长文阅读"></td>
+    <td width="50%"><img src="./docs/images/promo/ulbo-light-dark.png" alt="Tema chiaro e scuro di ulBo"></td>
+    <td width="50%"><img src="./docs/images/promo/ulbo-longform.png" alt="Lettura di contenuti lunghi con ulBo"></td>
   </tr>
   <tr>
-    <td align="center"><strong>一致的明暗主题体验</strong></td>
-    <td align="center"><strong>为技术长文准备的阅读工具</strong></td>
+    <td align="center"><strong>Esperienza coerente tra tema chiaro e scuro</strong></td>
+    <td align="center"><strong>Strumenti di lettura per articoli tecnici lunghi</strong></td>
   </tr>
 </table>
 
-![ulBo 搜索、标签、归档与 About 页面](./docs/images/promo/ulbo-content.png)
+![Ricerca, tag, archivio e pagina About di ulBo](./docs/images/promo/ulbo-content.png)
 
-## 快速开始
+## Avvio rapido
 
-点击 GitHub 仓库中的 **Use this template** 创建自己的博客，然后运行：
+Clicca su **Use this template** nel repository GitHub per creare il tuo blog, poi esegui:
 
 ```bash
 npm install
 npm run dev
 ```
 
-默认访问地址为 `http://localhost:4321`。
+L'indirizzo predefinito è `http://localhost:4321`.
 
-环境要求：
+Requisiti di ambiente:
 
-- Node.js 22.12.0 或更高版本
-- npm 9.6.5 或更高版本
+- Node.js 22.12.0 o superiore
+- npm 9.6.5 o superiore
 
-## 配置博客
+## Configurare il blog
 
-通常只需要修改以下位置：
+Di solito è sufficiente modificare i seguenti punti:
 
-| 文件 | 用途 |
+| File | Scopo |
 | --- | --- |
-| `src/config/site.ts` | 网站地址、标题、描述、语言和仓库链接 |
-| `src/config/profile.ts` | 头像、身份介绍、联系方式和社交链接 |
-| `src/config/hero.ts` | 首页、归档、标签、About 和文章默认 Hero |
-| `src/content/blog/` | Markdown / MDX 文章 |
-| `public/image/` | 文章与页面图片 |
+| `src/config/site.ts` | Indirizzo del sito, titolo, descrizione, lingua e link al repository |
+| `src/config/profile.ts` | Avatar, presentazione, contatti e link social |
+| `src/config/hero.ts` | Hero predefinito di Home, Archivio, Tag, About e articoli |
+| `src/content/blog/` | Articoli Markdown / MDX |
+| `public/image/` | Immagini di articoli e pagine |
 
-即使 `src/content/blog/` 还是空目录，首页、归档、标签和 About 等核心页面也可以正常构建，适合先完成个性化配置，再开始发布内容。
+Anche se `src/content/blog/` è vuota, le pagine principali (Home, Archivio, Tag, About) si costruiscono correttamente: puoi personalizzare la configurazione prima di iniziare a pubblicare contenuti.
 
-## 写一篇文章
+## Scrivere un articolo
 
-在 `src/content/blog/` 中新建 `.md` 或 `.mdx` 文件：
+Crea un file `.md` o `.mdx` in `src/content/blog/`:
 
 ```md
 ---
-title: "我的第一篇文章"
-date: "2026-08-03T10:00:00+08:00"
-description: "介绍如何使用 ulBo 搭建个人博客，包括主题配置、文章写作、本地预览、图片优化与部署流程。"
+title: "Il mio primo articolo"
+date: "2026-08-03T10:00:00+02:00"
+description: "Come usare ulBo per creare un blog personale: configurazione del tema, scrittura, anteprima locale, ottimizzazione delle immagini e deploy."
 draft: false
 categories:
-  - "记录"
+  - "Diario"
 tags:
   - "astro"
   - "blog"
 ---
 
-正文从这里开始。
+Il testo inizia da qui.
 ```
 
-完整字段与校验规则见 [Frontmatter 标准](./standard/frontmatter.md)。
+Campi completi e regole di validazione in [Standard Frontmatter](./standard/frontmatter.md).
 
-生产构建会统一排除草稿，覆盖首页、归档、详情页、标签、搜索索引和 RSS；开发环境仍可通过草稿标识查看和校对内容。
+La build di produzione esclude automaticamente le bozze e copre Home, Archivio, dettaglio articolo, tag, indice di ricerca e RSS; in ambiente di sviluppo le bozze restano visibili per la revisione e la correzione.
 
-## 推荐搭配 ulBo Article Manager
+## Consigliato: ulBo Article Manager
 
-[ulBo Article Manager](https://github.com/xxy1103/ulbo_vscode) 是为本主题开发的可选 VS Code 写作工具。它让你在熟悉的 Markdown 编辑器旁完成：
+[ulBo Article Manager](https://github.com/xxy1103/ulbo_vscode) è uno strumento di scrittura opzionale per VS Code sviluppato per questo tema. Ti permette di fare, accanto al tuo editor Markdown:
 
-- 新建草稿，搜索、筛选和打开文章；
-- 可视化编辑标题、日期、描述、分类、标签和草稿状态；
-- 使用 VS Code 语言模型生成文章描述，不可用时回退到本地提取；
-- 启动 Astro 开发服务并直接预览当前文章；
-- 发布前校验 Frontmatter、标签和正文引用图片；
-- 将文章与关联图片精确暂存到 Git；
-- 将删除的文章移入系统回收站，保留恢复能力。
+- Creare bozze, cercare, filtrare e aprire articoli;
+- Modificare visivamente titolo, data, descrizione, categoria, tag e stato di bozza;
+- Generare la descrizione dell'articolo con un modello linguistico di VS Code, con fallback all'estrazione locale;
+- Avviare il server di sviluppo Astro e anteprimere l'articolo corrente;
+- Validare Frontmatter, tag e immagini referenziate prima della pubblicazione;
+- Mettere in stage su Git con precisione articoli e immagini collegate;
+- Spostare gli articoli eliminati nel cestino di sistema, conservando la possibilità di recuperarli.
 
-主题负责展示与构建，插件负责写作和文章管理。插件不会自动执行 commit、push 或部署，最终发布仍由你控制。
+Il tema si occupa di visualizzazione e build, il plugin di scrittura e gestione degli articoli. Il plugin non esegue automaticamente commit, push o deploy: la pubblicazione finale resta sotto il tuo controllo.
 
-当前版本可从插件仓库安装本地 VSIX，详细说明见 [ulBo Article Manager README](https://github.com/xxy1103/ulbo_vscode#readme)。
+La versione corrente si installa dal repository del plugin come VSIX locale; i dettagli sono nel [README di ulBo Article Manager](https://github.com/xxy1103/ulbo_vscode#readme).
 
-## SEO 与性能
+## SEO e prestazioni
 
-当前代码已经实现：
+Il codice implementa già:
 
-- Canonical、robots、Open Graph、Twitter Card 和 JSON-LD；
-- 首页 `WebSite`、About 页 `Person`、文章页 `BlogPosting` 结构化数据；
-- RSS、Sitemap，以及归档分页的 `noindex,follow` 与 `rel=prev/next`；
-- Markdown 图片懒加载和异步解码；
-- 文章 Hero 预加载、KaTeX 样式按需加载；
-- 搜索索引首次打开时再获取；
-- 防止明暗主题首屏闪烁；
-- 独立于普通构建的 WebP 图片优化工具。
+- Canonical, robots, Open Graph, Twitter Card e JSON-LD;
+- Dati strutturati: `WebSite` in Home, `Person` nella pagina About, `BlogPosting` negli articoli;
+- RSS, Sitemap e `noindex,follow` con `rel=prev/next` per l'archivio paginato;
+- Lazy loading e decodifica asincrona delle immagini Markdown;
+- Preload dell'Hero degli articoli, caricamento on-demand degli stili KaTeX;
+- Indice di ricerca scaricato alla prima apertura;
+- Prevenzione del flash del tema chiaro/scuro al primo caricamento;
+- Strumento di ottimizzazione WebP indipendente dalla build normale.
 
-`npm run build` 只负责构建，不会修改文章或图片。需要优化图片时，先预览变更，再显式执行：
+`npm run build` si occupa solo di compilare: non modifica articoli o immagini. Quando vuoi ottimizzare le immagini, prima controlla le modifiche, poi esegui esplicitamente:
 
 ```bash
 npm run optimize:images:dry-run
 npm run optimize:images
 ```
 
-更完整的实现边界和代码位置见 [英文 README](./README.en.md#seo-optimizations-code-aligned)。
+Confini di implementazione e posizione del codice più completi in [README in inglese](./README.en.md#seo-optimizations-code-aligned).
 
-## 常用命令
+## Comandi utili
 
-| 命令 | 说明 |
+| Comando | Descrizione |
 | --- | --- |
-| `npm run dev` | 启动开发服务器 |
-| `npm run build` | 构建生产版本，不修改文章或图片 |
-| `npm run preview` | 预览生产构建结果 |
-| `npm run check` | 检查 Astro 与 TypeScript |
-| `npm test` | 运行测试 |
-| `npm run frontmatter:check` | 只读检查文章 Frontmatter |
-| `npm run frontmatter:fix` | 规范化 Frontmatter，并验证正文未被改动 |
-| `npm run optimize:images:dry-run` | 预览图片优化结果 |
-| `npm run optimize:images` | 生成 WebP 并更新文章引用 |
+| `npm run dev` | Avvia il server di sviluppo |
+| `npm run build` | Compila la versione di produzione, senza modificare articoli o immagini |
+| `npm run preview` | Anteprima del risultato della build di produzione |
+| `npm run check` | Controlla Astro e TypeScript |
+| `npm test` | Esegue i test |
+| `npm run frontmatter:check` | Verifica in sola lettura il Frontmatter degli articoli |
+| `npm run frontmatter:fix` | Normalizza il Frontmatter e verifica che il corpo non sia stato modificato |
+| `npm run optimize:images:dry-run` | Anteprima dei risultati dell'ottimizzazione immagini |
+| `npm run optimize:images` | Genera WebP e aggiorna i riferimenti negli articoli |
 
-## 部署
+## Deploy
 
-项目输出为静态文件，可部署到 Cloudflare Workers / Pages、Vercel、Netlify 或 GitHub Pages。
+Il progetto genera file statici: può essere pubblicato su Cloudflare Workers / Pages, Vercel, Netlify o GitHub Pages.
 
-仓库已包含 Cloudflare Workers Static Assets 配置：
+Il repository include già la configurazione Cloudflare Workers Static Assets:
 
 ```bash
 npm run build
 npm run deploy
 ```
 
-使用其他平台时，将构建命令设为 `npm run build`，输出目录设为 `dist`。
+Per altre piattaforme: comando di build `npm run build`, directory di output `dist`.
 
-## 项目结构
+## Struttura del progetto
 
 ```text
 src/
-├─ components/       页面组件
-├─ config/           站点、个人资料与 Hero 配置
-├─ content/blog/     Markdown / MDX 文章
-├─ layouts/          通用页面与文章布局
-├─ lib/              内容、搜索和资料处理逻辑
-├─ pages/            首页、归档、标签、About、RSS 等路由
-├─ plugins/          Markdown / HTML 处理插件
-└─ scripts/          搜索、目录、Mermaid、灯箱与页面交互
+├─ components/       Componenti delle pagine
+├─ config/           Configurazione di sito, profilo e Hero
+├─ content/blog/     Articoli Markdown / MDX
+├─ layouts/          Layout generali e layout degli articoli
+├─ lib/              Logica di contenuti, ricerca e profilo
+├─ pages/            Route: Home, Archivio, Tag, About, RSS, ecc.
+├─ plugins/          Plugin di elaborazione Markdown / HTML
+└─ scripts/          Ricerca, indice, Mermaid, lightbox e interazioni di pagina
 ```
 
-前端模块关系见 [架构地图](./docs/frontend-architecture-map.md)。
+Relazioni tra i moduli frontend in [Mappa dell'architettura](./docs/frontend-architecture-map.md).
 
-## 相关项目
+## Progetti correlati
 
-- [ulBo Article Manager](https://github.com/xxy1103/ulbo_vscode)：配套的 VS Code 文章管理工具。
-- [xxy1103.github.io](https://github.com/xxy1103/xxy1103.github.io)：使用 ulBo 搭建的真实个人博客。
+- [ulBo Article Manager](https://github.com/xxy1103/ulbo_vscode): strumento di gestione articoli per VS Code.
+- [xxy1103.github.io](https://github.com/xxy1103/xxy1103.github.io): blog personale reale creato con ulBo.
 
-## 参与贡献
+## Contribuire
 
-欢迎提交 Issue 和 Pull Request。开始前请阅读 [贡献指南](./CONTRIBUTING.md)、[行为准则](./CODE_OF_CONDUCT.md) 与 [安全策略](./SECURITY.md)。
+Issue e Pull Request sono benvenuti. Prima di iniziare leggi [Guida ai contributi](./CONTRIBUTING.md), [Codice di condotta](./CODE_OF_CONDUCT.md) e [Politica di sicurezza](./SECURITY.md).
 
-## 许可证
+## Licenza
 
 [MIT](./LICENSE)
