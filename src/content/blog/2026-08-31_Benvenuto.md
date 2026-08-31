@@ -10,7 +10,7 @@ tags:
   - "blog"
 ---
 
-![Benvenuto su Fuori dal Dataset](/benvenuto.jpg)
+![Benvenuto su Fuori dal Dataset](/immagini/benvenuto.jpg)
 
 Ho passato quaranta minuti a capire perché il sito non si vedeva.
 La build passava. Il deploy diceva success, con la spunta verde e tutto. L'URL restituiva una pagina bianca. Nessun errore, nessun 404, niente: bianco.
