@@ -10,24 +10,63 @@ tags:
   - "blog"
 ---
 
-Questo è il primo post di **Fuori dal Dataset**, e come ogni primo post che si rispetti, parte da una domanda: perché?
+![Benvenuto su Fuori dal Dataset](/benvenuto.jpg)
 
-Perché viviamo in un mondo dove i modelli vengono addestrati su enormi quantità di dati, e quasi tutto quello che scriviamo finisce lì dentro. Io, invece, voglio uno spazio mio. Un posto dove le parole restano parole, non diventano *training data*. Un angolo di internet fuori dal dataset.
+Ho passato quaranta minuti a capire perché il sito non si vedeva.
+La build passava. Il deploy diceva success, con la spunta verde e tutto. L'URL restituiva una pagina bianca. Nessun errore, nessun 404, niente: bianco.
+Era una riga di configurazione sbagliata. Una stringa.
+Ecco, questo blog nasce più o meno lì, in quei quaranta minuti in cui ho pensato almeno tre volte "ma chi me l'ha fatto fare".
 
-<!-- more -->
+# Non è il mio primo blog
 
-## Di cosa parlerò
+Hi già scritto altrove, in altri periodi, con altri strumenti. Alcune di quelle cose sono ancora online, altre no, e non tutte mi dispiace che siano sparite.
 
-Tre filoni principali:
+La differenza stavolta è che ho voluto costruirmi il posto da zero, utilizzando Astro, un repository su GitHub, file markdown in una cartella. 
 
-- **Diario** — la vita vera, senza filtri: giornate, pensieri, cose che succedono
-- **Informatica** — quello che imparo, gli esperimenti che faccio, i problemi che risolvo
-- **Intelligenza artificiale** — il campo che mi appassiona di più, con tutto quello che sto costruendo
+Nessun pannello di amministrazione, nessun plugin che si aggiorna da solo e rompe qualcosa alle due di notte. Se si rompe, l'ho rotto io, e posso guardare il commit per capire quando.
 
-## Come è fatto
+C'è una parte di questa scelta che è pura pigrizia travestita da rigore: scrivere in markdown significa che non devo pensare all'impaginazione mentre scrivo. E c'è una parte che è controllo. Mi piace sapere cosa succede tra il testo che scrivo e la pagina che vedi.
 
-Questo blog gira su un generatore statico (Astro) con il tema Ulbo, pubblicato su Cloudflare Pages. Il flusso è semplice: scrivo un post, lo carico su GitHub, e il sito si aggiorna da solo. Niente server da gestire, niente database, niente traffico da pagare.
+# Di cosa si parla qui
 
-Se vuoi lasciare un commento, sotto ogni post trovi la sezione dedicata. Grazie per essere passato di qui.
+Informatica, Bitcoin, intelligenza artificiale, business intelligence.
+Messi in fila sembrano quattro argomenti pescati a caso da un feed di notizie tech ma rappresentano le mie passioni ed il mio lavoro.
 
-— Vittorio
+La business intelligence è il mio lavoro: prendere righe e righe da un database e tirarci fuori un numero per aiutare un'azienda a prendere decisioni più consapevoli. 
+
+Bitcoin è un database che nessuno controlla e che funziona lo stesso, il che continua a sembrarmi una delle idee più strane e più belle degli ultimi vent'anni.
+
+L'intelligenza artificiale è una macchina che indovina benissimo e ogni tanto malissimo, e distinguere i due casi è diventato improvvisamente un problema di tutti. 
+
+L'informatica è lo strato sotto, quello che nessuno guarda finché non restituisce una pagina bianca.
+
+Quindi no, non ho intenzione di fare quattro sezioni separate. Probabilmente finirò a parlare di un problema di query SQL e uscirne con una considerazione sulla fiducia. Succede.
+
+# La parte che di solito nessuno scrive
+
+Buona parte dell'impalcatura di questo sito l'ho costruita con un modello di AI aperto accanto.
+Non "scritto dall'AI". La differenza per me è netta, e mi interessa dirla chiaramente al primo post invece che nascondermi dietro un disclaimer in fondo alla pagina.
+
+Il funzionamento è questo: chiedo, ottengo una risposta, la provo. Spesso non funziona. A quel punto devo capire perché e quello è il momento in cui imparo qualcosa, non prima. 
+
+L'AI mi ha risparmiato ore di documentazione e di boilerplate. 
+
+Mi ha anche fatto perdere tempo con soluzioni sbagliate dette con una sicurezza notevole, il che è il difetto più interessante che stia provando: non sbaglia come sbaglia un principiante, sbaglia come sbaglia un collega convinto.
+
+I testi restano miei. 
+
+Li faccio rileggere, mi faccio dire dove sto girando a vuoto, ogni tanto le do retta e ogni tanto no. 
+
+La manutenzione del sito invece è terreno suo quanto mio: script, controlli, le cose noiose che altrimenti non farei e basta.
+
+Non credo che questa sia la configurazione definitiva. 
+
+Credo che tra sei mesi guarderò indietro a come lavoro adesso e mi sembrerà goffo. Va bene così, è anche parte di quello di cui voglio scrivere.
+
+# Come funziona
+
+Pubblicherò quando ho qualcosa da dire, non a calendario. 
+
+Preferisco tre post l'anno che valgano la lettura a uno a settimana scritto per riempire.
+
+Se trovi una pagina bianca, sappi che è quasi sicuramente la configurazione.
