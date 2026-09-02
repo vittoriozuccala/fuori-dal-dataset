@@ -203,18 +203,7 @@ const articleSchema = {
 				padding: 3em;
 				min-height: 300px;
 				width: 100%;
-				animation: slideUp 0.5s ease-out forwards;
-				opacity: 0; /* inizialmente nascosto */
-				transform: translateY(30px); /* spostato in basso inizialmente */
 				min-width: 0; /* fix: evita che gli item della griglia vengano allargati da elementi larghi (es. blocchi di codice) */
-				will-change: transform, opacity;
-			}
-
-			@keyframes slideUp {
-				to {
-					opacity: 1;
-					transform: translateY(0);
-				}
 			}
 
 			/* adattamento responsive */
