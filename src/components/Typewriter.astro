@@ -45,6 +45,13 @@ const elementId = id || `typewriter-${Math.random().toString(36).substring(7)}`;
         const typewriters = document.querySelectorAll('.typewriter[data-text]');
         
         typewriters.forEach((element) => {
+            // Idempotente: 'astro:page-load' può scattare più volte (view transitions,
+            // ClientRouter, webview), e due cicli di typing paralleli mescolano le lettere.
+            // Con le View Transitions gli elementi della nuova pagina sono nuovi (senza flag),
+            // quindi il typing riparte correttamente a ogni navigazione.
+            if (element.dataset.typewriterStarted === 'true') return;
+            element.dataset.typewriterStarted = 'true';
+
             const fullText = element.getAttribute('data-text') || '';
             const typedTextSpan = element.querySelector('.typed-text') as HTMLElement | null;
             
